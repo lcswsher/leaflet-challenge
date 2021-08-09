@@ -2,7 +2,7 @@
 
 const queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson";
 
-// My corrdinates
+// My coordinates
 
 var myMap = L.map("map", {
     center: [40.52, -34.34],
@@ -66,7 +66,7 @@ d3.json(queryUrl).then(function (data) {
         }  
     }).addTo(myMap);
 
-// Legend 
+// Legend Set up
 
     var legend = L.control({position: "bottomright"});
         legend.onAdd = function() {
