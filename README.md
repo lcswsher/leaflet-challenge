@@ -14,7 +14,7 @@ This assignment visualizes all earthquakes for the previous day:
 - Each marker includes a pop-up of the Magnitude,  Depth, Location and Date/Time of the earthquake
 - Earthquake locations are based on longitude and latitude. 
 
-<img src="LeafletEarthQuake_PastDay.PNG" height="950">
+<img src="Images/LeafletEarthQuake_PastDay.PNG" height="950">
 
 USGS - Source Data:
 
